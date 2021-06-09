@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="./css/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto formulario payment con HTML</title>
+    <script src="https://kit.fontawesome.com/2588a9f585.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row card">
+
+            <div class="card-header">
+                <h3>Payment form example</h3>
+            </div>
+
+            <div class="card-body">
+                <div class="alert alert-danger" role="alert">
+                    some fields are missing
+                  </div>
+
+               
+                <div class="row">
+                    <div class="col-lg-5">
+                        <label for="" style="padding-bottom: 15px;">Card #</label>
+                        <input type="number" class="form-control" placeholder="XXXXXXXXXXXXXX">
+                    </div>
+                    <div class="col-lg-2">
+                        <label for="" style="padding-bottom: 15px;">CVC #</label>
+                        <input type="number" class="form-control" placeholder="0000">
+                    </div>
+                    <div class="col-lg-5">
+                        <label for="" style="padding-bottom: 15px;">Amount</label>
+                        <div class="input-group">
+                            <div class="" id="btnGroupAddon2" style="padding-right: 5px;"><i class="fas fa-dollar-sign"></i></div>
+                            <input type="number" class="form-control" placeholder="Amount" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <label for="" style="padding-bottom: 15px; padding-top: 10px;">First name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="" style="padding-bottom: 15px; padding-top: 10px;">Last name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="" style="padding-bottom: 15px; padding-top: 10px;">City</label>
+                        <input type="text" class="form-control">
+                    </div>                  
+
+                    <div class="col-lg-3">
+                        <label for="" style="padding-bottom: 15px; padding-top: 10px;">State</label>
+                        <div>                           
+                            <select class="custom-select form-control">                           
+                                <option value="">Pick a state</option>
+                                <option value="">Ciudad Bolivar</option>                       
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="" style="padding-bottom: 15px; padding-top: 10px;">Postal Code</label>
+                        <input type="text" class="form-control">
+
+                    </div>
+
+                    <div class="col-lg-6">                            
+                        <label for="" style="padding-bottom: 15px; padding-top: 10px;">We accept:</label>
+                        <div class="col-lg-6 w-45 bg-secondary rounded">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-mastercard" style="font-size: 24px; color: white;"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-visa" style="font-size: 24px; color: white;"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-diners-club" style="font-size: 24px; color: white;"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-amex" style="font-size: 24px; color: white;"></i></label>
+                            </div>                               
+                        </div>
+                    </div>                        
+                               
+
+                    <div class="col-lg-6">
+                        <label for="" style="padding-bottom: 15px; padding-top: 10px;">Message</label>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>                    
+                        <label for="" style="color: gray;">Add any notes here.</label>
+                    </div>
+                    
+                </div>
+
+              
+
+            </div>       
+            
+            <div class="card-footer">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-secondary me-md-2" type="button">cancel</button>
+                    <button class="btn btn-primary" type="button">Send</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
